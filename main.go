@@ -58,9 +58,9 @@ func messageHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	// m.Content は discordのメッセージの内容
 	// m.COntent に 自由な指定の文字列を。
 	if m.Content == "" {
-		
+
 		// 指定されたチャネルにメッセージを送信。
 		// m.ChannelID：チャネルのID。 m.Content：BOTが送信するメッセージ。
-		_, _ = s.ChannelMessageSend(m.ChannelID, "やあみんな！僕は困ったロボ！みんなをサポートする役目がある！")
+		_, _ = s.ChannelMessageSend(m.ChannelID, "")
 	}
 }
