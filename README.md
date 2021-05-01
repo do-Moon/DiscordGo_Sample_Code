@@ -8,3 +8,8 @@ Import the package into your project.
 ```go
 import "github.com/bwmarrin/discordgo"
 ```
+
+## Installing
+```sh
+go get github.com/bwmarrin/discordgo
+```
