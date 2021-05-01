@@ -4,7 +4,6 @@
 [bwmarrin/discordgo](https://github.com/bwmarrin/discordgo).
 
 ### Usage
-<hr>
 Import the package into your project.
 
 ```go
